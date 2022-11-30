@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 #import matplotlib.pyplot as plt
-import plotly.express as px
+#import plotly.express as px
 st.write("""
 ## Чек и чаевые
 Динамика цен на заказы и размер чаевых
@@ -19,9 +19,9 @@ st.write("""
 
 """)
 
-figplt = px.scatter(tipsdf, x='total_bill', y='tip')
+#figplt = px.scatter(tipsdf, x='total_bill', y='tip')
 
-st.write(figplt)
+#st.write(figplt)
 
 #plt.xlabel("Сумма заказа")
 #plt.ylabel("Чаевые")
